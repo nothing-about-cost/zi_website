@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>眦 · 摄影作品集 | ZÌ Photography</title>
+<meta name="description" content="眦的个人摄影作品集 —— 风光、人像、街拍、建筑。用光记录那些容易被忽略的瞬间。" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230b0b0c'/><circle cx='50' cy='50' r='26' fill='none' stroke='%23d9b382' stroke-width='7'/><circle cx='50' cy='50' r='8' fill='%23d9b382'/></svg>" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ========== 顶部导航 ========== -->
+<header class="site-header" id="siteHeader">
+  <a class="brand" href="#top" aria-label="回到顶部">
+    <span class="brand-mark">眦</span>
+    <span class="brand-text">
+      <strong>眦</strong>
+      <em>ZÌ · PHOTOGRAPHY</em>
+    </span>
+  </a>
+
+  <nav class="nav" id="nav">
+    <a href="#works">作品</a>
+    <a href="#about">关于</a>
+    <a href="#contact">联系</a>
+  </nav>
+
+  <button class="nav-toggle" id="navToggle" aria-label="打开菜单" aria-expanded="false" aria-controls="nav">
+    <span></span><span></span>
+  </button>
+</header>
+
+<main id="top">
+
+  <!-- ========== 首屏 ========== -->
+  <section class="hero">
+    <div class="hero-media">
+      <img src="images/hero.jpg" alt="首屏摄影作品" fetchpriority="high" />
+    </div>
+    <div class="hero-veil"></div>
+
+    <div class="hero-inner">
+      <p class="hero-eyebrow">Photography Portfolio · 2026</p>
+      <h1 class="hero-title">用光写下的<br /><em>日常</em></h1>
+      <p class="hero-sub">
+        风光 · 人像 · 街拍 · 建筑<br />
+        记录那些容易被忽略的瞬间。
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-solid" href="#works">浏览作品</a>
+        <a class="btn btn-ghost" href="#contact">联系我</a>
+      </div>
+    </div>
+
+    <a class="hero-scroll" href="#works" aria-label="向下滚动">
+      <span class="hero-scroll-line"></span>
+      <span class="hero-scroll-text">SCROLL</span>
+    </a>
+  </section>
+
+  <!-- ========== 作品集 ========== -->
+  <section class="section" id="works">
+    <div class="section-head reveal">
+      <p class="section-index">01 — WORKS</p>
+      <h2 class="section-title">作品集</h2>
+      <p class="section-desc">
+        这里收录了我近几年的部分拍摄。点击任意一张可以放大查看，支持键盘左右方向键切换。
+        <span class="inline-note">（以下作品均为占位素材，非真实拍摄）</span>
+      </p>
+    </div>
+
+    <div class="filters reveal" id="filters"></div>
+
+    <div class="gallery" id="gallery"></div>
+    <p class="gallery-empty" id="galleryEmpty" hidden>该分类下暂时还没有作品。</p>
+  </section>
+
+  <!-- ========== 关于 ========== -->
+  <section class="section about" id="about">
+    <div class="about-grid">
+      <figure class="about-photo reveal">
+        <img src="images/work-14.jpg" alt="摄影师肖像" loading="lazy" />
+        <figcaption>Self Portrait · 2025</figcaption>
+      </figure>
+
+      <div class="about-body reveal">
+        <p class="section-index">02 — ABOUT</p>
+        <h2 class="section-title">关于我</h2>
+        <p>
+          你好，我是<strong>眦</strong>。一名摄影爱好者，也是一名学生。
+          相机最初只是用来记录旅行，后来慢慢变成了我看世界的方式。
+        </p>
+        <p>
+          我喜欢清晨和黄昏的光，喜欢城市里人与人之间短暂的擦肩，
+          也喜欢那些安静得几乎没有故事的角落。比起完美构图，
+          我更在意照片里有没有留下当时的温度。
+        </p>
+
+        <dl class="about-stats">
+          <div>
+            <dt>6<small>年</small></dt>
+            <dd>拍摄经验</dd>
+          </div>
+          <div>
+            <dt>120<small>+</small></dt>
+            <dd>精选作品</dd>
+          </div>
+          <div>
+            <dt>15<small>+</small></dt>
+            <dd>到访城市</dd>
+          </div>
+        </dl>
+
+        <ul class="about-gear">
+          <li><span>机身</span>Sony A7 IV</li>
+          <li><span>镜头</span>24-70mm F2.8 / 35mm F1.4</li>
+          <li><span>后期</span>Lightroom · Photoshop</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 联系 ========== -->
+  <section class="section contact" id="contact">
+    <div class="contact-inner reveal">
+      <p class="section-index">03 — CONTACT</p>
+      <h2 class="section-title">一起拍点什么吧</h2>
+      <p class="contact-desc">
+        约拍、合作、或者只是想聊聊摄影，都欢迎给我发消息。
+        通常我会在 24 小时内回复。
+      </p>
+
+      <a class="contact-mail" href="mailto:hello@example.com">hello@example.com</a>
+
+      <p class="contact-note">
+        ※ 此邮箱为示例地址，无法接收邮件；下方社交账号链接均为空占位，未指向真实账号。
+      </p>
+
+      <ul class="contact-links">
+        <li><a href="#" rel="noopener">Instagram</a></li>
+        <li><a href="#" rel="noopener">小红书</a></li>
+        <li><a href="#" rel="noopener">微博</a></li>
+        <li><a href="#" rel="noopener">微信</a></li>
+      </ul>
+    </div>
+  </section>
+
+<!-- ========== 虚构内容声明 ========== -->
+<section class="disclaimer" id="disclaimer" aria-labelledby="disclaimerTitle">
+  <div class="disclaimer-inner reveal">
+    <p class="disclaimer-badge">NOTICE · 虚构内容声明</p>
+    <h2 class="disclaimer-title" id="disclaimerTitle">本页内容均为演示用途</h2>
+    <p class="disclaimer-lead">
+      这是一个用于展示网页结构与排版的<strong>示例站点</strong>。页面上出现的所有摄影作品与个人信息
+      均<strong>并非真实内容</strong>，不指向任何真实的人、事、物，仅作占位与演示之用。
+    </p>
+
+    <ul class="disclaimer-list">
+      <li><span>摄影作品</span>图片取自 picsum.photos 的随机占位素材，非本人拍摄</li>
+      <li><span>作品标题</span>「晨雾中的山脊」「侧脸」等名称均为虚构</li>
+      <li><span>作品分类</span>风光、人像、街拍、建筑的归属为演示用随机分配</li>
+      <li><span>个人简介</span>姓名「眦」、学生身份、拍摄经历等描述均为虚构</li>
+      <li><span>统计数据</span>6 年经验、120+ 作品、15+ 城市等数字均为虚构</li>
+      <li><span>器材信息</span>机身、镜头、后期软件等参数仅为示例文本</li>
+      <li><span>联系方式</span>邮箱 hello@example.com 为示例地址，无法接收邮件</li>
+      <li><span>社交账号</span>Instagram、小红书、微博、微信均为空链接，未指向真实账号</li>
+    </ul>
+
+    <p class="disclaimer-foot">
+      如需正式上线，请将上述内容全部替换为自己的作品与真实信息。如有雷同，纯属巧合。
+    </p>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="year">2026</span> 眦 · ZÌ Photography</p>
+  <p class="footer-note">示例站点 · 作品、简介、数据与联系方式均为虚构，仅供演示。</p>
+</footer>
+
+<!-- ========== 灯箱 ========== -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="作品大图" hidden>
+  <button class="lb-btn lb-close" id="lbClose" aria-label="关闭">&times;</button>
+  <button class="lb-btn lb-prev" id="lbPrev" aria-label="上一张">&#8249;</button>
+  <button class="lb-btn lb-next" id="lbNext" aria-label="下一张">&#8250;</button>
+
+  <figure class="lb-figure">
+    <img id="lbImg" src="" alt="" />
+    <figcaption class="lb-caption">
+      <span class="lb-title" id="lbTitle"></span>
+      <span class="lb-cat" id="lbCat"></span>
+    </figcaption>
+  </figure>
+
+  <p class="lb-counter" id="lbCounter"></p>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
